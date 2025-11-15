@@ -1,31 +1,41 @@
-This project is a dual-function converter that allows users to speak and convert speech into text, and also enter text and convert it into speech.
-It uses the Web Speech API, available in most modern browsers, to enable hands-free voice input and natural-sounding speech output.
+# 🎙️ Voice-to-Text & Text-to-Voice Converter
 
-✨ Features
-🎤 Voice to Text
+A web application built using **HTML, CSS, and JavaScript** that allows users to:
+- Speak into their microphone and convert speech to text (Voice → Text)  
+- Enter text and convert it to speech (Text → Voice)  
 
-Converts speech into written text in real time
+This application leverages the **Web Speech API**, supporting real-time voice recognition and text-to-speech synthesis in modern browsers.
 
-Start/Stop recording with a single click
+---
 
-Displays transcribed text instantly
+## 🚀 Features
 
-Supports multiple languages (depending on browser support)
+- **Voice to Text (Speech Recognition):**  
+  - Start / stop voice recording  
+  - Real-time display of transcribed text  
+  - Supports different languages (if browser supports)  
 
-🔊 Text to Voice
+- **Text to Voice (Speech Synthesis):**  
+  - Type text in an input box  
+  - Click a button to hear the typed text spoken aloud  
+  - Use default browser voices (or available voices)  
 
-Converts typed text into speech
+- **Clean & Responsive UI:**  
+  - Simple buttons, clear layout  
+  - Works on desktop, and compatible mobile browsers (if supported)  
 
-Allows users to listen to the typed content
+---
 
-Adjustable voice options depending on browser
+## 🛠️ Technologies Used
 
-Works without any external library
+- **HTML5** — Structure of the page  
+- **CSS3** — Styling and layout  
+- **JavaScript** — Core logic for voice recognition and synthesis  
+- **Web Speech API**  
+  - `SpeechRecognition` for voice → text :contentReference[oaicite:3]{index=3}  
+  - `speechSynthesis` for text → voice (text-to-speech) :contentReference[oaicite:4]{index=4}  
 
-🖥️ User Interface
+---
 
-Clean and responsive UI
 
-Simple buttons for both actions
 
-Works on desktop and supported mobile browsers
